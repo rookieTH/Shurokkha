@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+<Button
+    android:layout_width="175dp"
+    android:layout_height="100dp"
+    android:background="@drawable/phoneicon"
+    android:id="@+id/phone"
+    android:onClick="onClick"
+    />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+
+        android:background="@drawable/message"
+        android:id="@+id/message"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

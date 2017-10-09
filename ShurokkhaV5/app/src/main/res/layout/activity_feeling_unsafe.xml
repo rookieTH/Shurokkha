@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feeling_unsafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/front"
+    tools:context="com.cse.mist.shurokkhav5.FeelingUnsafe">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/OthersButton"
+        android:text="Let Others Know"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:onClick="ClickOthers"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/SafehouseButton"
+        android:text="Nearby Safehouses"
+        android:layout_below="@id/OthersButton"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:onClick="ClickSafehouse"
+        />
+
+    <Button
+        android:text="Nearby Police Stations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+
+
+        android:height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/SafehouseButton"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:onClick="ClickPoliceStations"
+        android:layout_marginTop="56dp"
+        android:id="@+id/PoliceStationButton" />
+    <!--
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PoliceStationButton"
+            android:layout_marginTop="20dp"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:bound="@drawable/camera" />
+
+
+        <Button
+            android:text="Log Out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LogOut3Button"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_below="@+id/PoliceStationButton"
+            android:layout_alignEnd="@+id/PoliceStationButton"
+            android:layout_marginEnd="44dp"
+            android:layout_marginTop="74dp" />
+        -->
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/ic_place_black_24dp"
+        android:onClick="onClickMap"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/PoliceStationButton"
+        android:layout_marginEnd="38dp"
+        android:id="@+id/button2" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    tools:context="com.cse.mist.shurokkhav5.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+  <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Settings" /> -->
+
+
+    <Button
+
+    android:layout_marginTop="50dp"
+    android:onClick="onClick"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+
+    android:width="100dp"
+    android:height="50dp"
+    android:textAllCaps="false"
+    android:textSize="20sp"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/buttonshape"
+    android:shadowColor="#A8A8A8"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:shadowRadius="5"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/addContacts"
+    android:text="Add Or Delete Contacts"
+    />
+
+
+</FrameLayout>

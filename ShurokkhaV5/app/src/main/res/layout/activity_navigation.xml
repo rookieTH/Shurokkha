@@ -1,0 +1,85 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:background="@drawable/front"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentholder"
+
+        >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="30dp"
+    android:fontFamily="casual"
+    android:textStyle="bold"
+    android:textColor="#0e2c5b"
+    android:textAlignment="center"
+    android:text="Welcome! Shake to explore"
+    />
+
+        <!--
+        <Button
+            android:background="@drawable/rounded_buttonn"
+            android:gravity="center"
+            android:backgroundTint="#ff2c19"
+            android:textSize="24dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:onClick="onClick"
+            android:id="@+id/unsafeButton"
+            android:text="Unsafe"
+
+            android:layout_centerHorizontal="true" />
+
+
+        <Button
+            android:textSize="24dp"
+            android:background="@drawable/rounded_buttonn"
+            android:backgroundTint="#ffaa18"
+            android:text="Followed"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:onClick="onClick"
+            android:id="@+id/followedButton"
+            android:layout_below="@id/unsafeButton"
+            android:layout_alignStart="@id/unsafeButton"
+            android:layout_marginTop="14dp" />
+
+
+
+        <Button
+            android:textSize="24dp"
+            android:background="@drawable/rounded_buttonn"
+            android:gravity="center"
+            android:text="@string/safe"
+            android:backgroundTint="#379e45"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:onClick="onClick"
+            android:id="@+id/safeButton"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@id/followedButton" />
+        -->
+    </FrameLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navlist"
+        android:choiceMode="singleChoice"
+        android:listSelector="@drawable/list_selector"
+        android:layout_gravity="start"
+        android:background="@drawable/bg_key"
+        ></ListView>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ShurokkhaV5</string>
+    <string name="title_activity_about_app">AboutApp</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="signup_btn_text">Signup</string>
+    <string name="singin_link_text">Already Registered? Sign In Here!</string>
+    <string name="signin_btn_text">Signin</string>
+    <string name="signup_link_text">Not Registered yet? Create a new account</string>
+    <string name="Welcome">Not Registered yet? Create a new account</string>
+    <string name="welcome_to_your_profile">Welcome To Your Profile</string>
+    <string name="log_out">Log Out</string>
+    <string name="shurokkha">সুরক্ষা</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dummy">DummyActivity</string>
+    <string name="safe">Safe</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

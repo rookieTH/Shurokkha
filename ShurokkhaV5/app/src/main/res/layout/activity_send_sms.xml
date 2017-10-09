@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_send_sms"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cse.mist.shurokkhav5.SendSmsActivity">
+<!--
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="77dp"
+        android:id="@+id/numText"
+        android:hint="Enter number"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/trusted"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/listViewContacts"
+        />
+        -->
+    <!--
+    <Button
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:text="Send Sms"
+        android:onClick="sendSMS"
+        android:width="100dp"
+    android:height="50dp"
+    android:textAllCaps="false"
+    android:textSize="20sp"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/buttonshape"
+    android:shadowColor="#A8A8A8"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:shadowRadius="5"
+        android:layout_below="@id/listViewContacts"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button3"/>
+    -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Shurokkha"
+        android:textSize="50dp"
+        android:fontFamily="casual"
+        android:textColor="@color/Heading"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/heading"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:id="@+id/listViewContacts1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <!--
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:inputType="textMultiLine"
+            android:hint="Enter Text"
+            android:ems="10"
+            android:id="@+id/msgText"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/numText"
+            android:layout_alignParentStart="true" />
+        -->
+
+
+</RelativeLayout>
